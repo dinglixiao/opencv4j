@@ -6,12 +6,13 @@ import java.net.URL;
 
 class opencv_version {
 
-    // static { System.loadLibrary(Core.NATIVE_LIBRARY_NAME); }
-
-    public static void main(String[] args) {
-
+    static {
+        // System.loadLibrary(Core.NATIVE_LIBRARY_NAME);
         URL url = ClassLoader.getSystemResource("lib/opencv_java430.dll");
         System.load(url.getPath());
+    }
+
+    public static void main(String[] args) {
 
         if ((1 == args.length) && (0 == args[0].compareTo("--build"))) {
 
