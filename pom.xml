@@ -18,12 +18,12 @@
 
   <dependencies>
     <!-- OpenCV -->
-    <dependency>
+    <!--<dependency>
       <groupId>org</groupId>
       <artifactId>opencv</artifactId>
       <scope>system</scope>
       <systemPath>${project.basedir}\src\main\resources\lib\opencv-411.jar</systemPath>
-    </dependency>
+    </dependency>-->
 
   </dependencies>
 
